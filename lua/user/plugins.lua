@@ -86,6 +86,7 @@ return packer.startup(function(use)
 
 	-- LSP
 	use { "neovim/nvim-lspconfig", commit = "f11fdff7e8b5b415e5ef1837bdcdd37ea6764dda" } -- enable LSP
+  use "simrat39/rust-tools.nvim"
   -- use { "williamboman/mason.nvim", commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12"} -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" }
 	use { "jose-elias-alvarez/null-ls.nvim", commit = "c0c19f32b614b3921e17886c541c13a72748d450" } -- for formatters and linters
@@ -95,10 +96,7 @@ return packer.startup(function(use)
 	use { "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" }
 
 	-- Treesitter
-	-- use {
-	--	"nvim-treesitter/nvim-treesitter",
-	--	commit = "226c1475a46a2ef6d840af9caa0117a439465500",
-	-- }
+	use "nvim-treesitter/nvim-treesitter"
 
 	-- Git
 	-- use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }

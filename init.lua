@@ -3,10 +3,14 @@ require "user.keymaps"
 require "user.plugins"
 require "user.colorscheme"
 require "user.cmp"
--- require "user.lsp"
+
+-- 2023-10-01 
+require "user.lsp.rust-analyzer"
+require "user.lsp.rust-tools"
+
 require "user.telescope"
 -- require "user.gitsigns"
--- require "user.treesitter"
+require "user.treesitter"
 require "user.autopairs"
 require "user.comment"
 require "user.nvim-tree"

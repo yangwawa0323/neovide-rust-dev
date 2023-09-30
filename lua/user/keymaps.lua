@@ -25,6 +25,11 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Add global string searching
+keymap("n", "<leader>ff", ":Telescope grep_string<CR>", opts)
+keymap("n", "<C-p>", ":Telescope find_files<CR>", opts)
+
+
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
 keymap("n", "<C-Down>", ":resize +2<CR>", opts)
