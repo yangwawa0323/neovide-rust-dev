@@ -44,6 +44,9 @@ return packer.startup(function(use)
 
   -- @BEGIN greate customize plugins
 
+  use "mkropat/vim-ezguifont"
+
+
   -- Plugins can have post-install/update hooks
   use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
 

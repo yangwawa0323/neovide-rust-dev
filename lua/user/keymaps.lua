@@ -75,3 +75,10 @@ keymap("x", "<A-k>", ":m '<-2<CR>gv=gv", opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- IncreaseFont or DecreaseFont 
+
+keymap("c", "zi", ":IncreaseFont<CR>", opts)
+keymap("c", "zo", ":DecreaseFont<CR>", opts)
+
+
+
